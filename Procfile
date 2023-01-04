@@ -1,1 +1,1 @@
-web: gunicorn HIMYM-Backend.wsgi
+web: gunicorn himym_api.wsgi
