@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CastApiConfig(AppConfig):
+class BlogApiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'cast_api'
+    name = 'blog_api'

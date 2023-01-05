@@ -12,15 +12,13 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Cast',
+            name='Blog',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=32)),
-                ('age', models.IntegerField()),
-                ('first_episode', models.IntegerField()),
-                ('status', models.CharField(max_length=32)),
-                ('relationship_status', models.CharField(max_length=32)),
-                ('image_link', models.CharField(max_length=2000)),
+                ('topic', models.CharField(max_length=60)),
+                ('image_link', models.CharField(max_length=255)),
+                ('post', models.TextField(max_length=2000)),
             ],
         ),
     ]
