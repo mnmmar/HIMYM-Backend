@@ -37,7 +37,7 @@ ALLOWED_HOSTS = ['localhost', 'serene-tundra-26070.herokuapp.com']
 INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
-    'cast_api',
+    'blog_api',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
