@@ -1,0 +1,1 @@
+web: gunicorn himym_api.wsgi
