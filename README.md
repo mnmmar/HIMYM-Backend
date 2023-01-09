@@ -16,6 +16,7 @@ Technologies Used
 
 * Python
 * PSQL
+* Django
 
 Unsolved Problems
 
